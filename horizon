@@ -22,10 +22,10 @@ if [ "${1}" = "-d" ]; then
       decode_horizon ${line}
     done
     exit 0
-  fi
   else
     decode_horizon ${@}
     exit 0
+  fi
 fi
 
 if [ "${#}" -eq 0 ]; then
