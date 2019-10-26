@@ -54,7 +54,7 @@ $ horizon ⚠️💩 | horizon -d
 
 # 参考資料
 
-* －(横線)難読化シェル芸LT資料
+* －(横線)難読化シェル芸LT資料  
   https://speakerdeck.com/msr_i386/horizon
-* Glyph Wiki
+* Glyph Wiki  
   https://glyphwiki.org/
