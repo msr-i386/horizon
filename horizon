@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 base="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/"
 horizon="-_­¯ˉ˗̵̶̠̱̲̄̅͟͞ߺᅳ᎗ᐨ ᠆᠊‐‑‒–—―‾⁃౼⁻₋−⎺⎻⎼⎽⏤─━╴╶╸╺▔⚊Ⲻⲻ⸏⸻⼀ーㅡ㆒㇐ꣻ﹘ﹶﹺ－ｰￚ￣"
