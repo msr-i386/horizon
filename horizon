@@ -18,7 +18,7 @@ decode_horizon() {
 if [ "${1}" = "-d" ]; then
   shift
   if [ "${#}" -eq 0 ]; then
-    while read line ; do
+    while read line || [ -n "${line}" ]; do
       decode_horizon ${line}
     done
     exit 0
@@ -29,7 +29,7 @@ if [ "${1}" = "-d" ]; then
 fi
 
 if [ "${#}" -eq 0 ]; then
-  while read line ; do
+  while read line || [ -n "${line}" ]; do
     encode_horizon ${line}
   done
   exit 0
